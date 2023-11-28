@@ -8,3 +8,6 @@
     a. (First time only) env: `python3 -m venv .venv`
     b. Every time we start work. windows: `.venv\Scripts\activate` mac/linux: `source .venv/bin/activate`
 
+## Using pip
+
+- `python3 -m pip install pandas`
