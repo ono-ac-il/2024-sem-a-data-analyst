@@ -1,7 +1,7 @@
 # Basics
 
 1. External packages using pip, `python3 -m pip install pandas`
-
+ 
 2. run python file: `python3 main.py`
 
 3. Activate python environment
