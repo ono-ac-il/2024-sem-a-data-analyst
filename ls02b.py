@@ -17,6 +17,8 @@ dftest = pd.read_excel("a.xlsx", "a")
 # cols = ["country", "name"]
 # print(dftest[cols])
 
+subdf = dftest[dftest["latitude"] > 0]
+
 subdf = dftest[(dftest["latitude"] > 0) & (dftest["longitude"] > 0)]
 
 print(subdf)
