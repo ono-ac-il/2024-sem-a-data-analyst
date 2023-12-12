@@ -23,3 +23,4 @@
 - `pandas.core.series.Series.notna()`
 - `pandas.core.series.Series.fillna("something"))`
 - `pandas.core.series.Series.dropna()`
+- `pd.concat([pandas.core.frame.DataFrame, pandas.core.frame.DataFrame])`
