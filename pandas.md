@@ -4,7 +4,7 @@
 
 ### Remove '/' from column names and trim spaces
 
-pandas.core.frame.DataFrame.columns = pandas.core.frame.DataFrame.columns.str.replace('/', '', regex=False).str.strip()
+`pandas.core.frame.DataFrame.columns.str.replace('/', '', regex=False).str.strip()`
 
 ## ls02
 
