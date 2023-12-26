@@ -43,4 +43,5 @@ for col in pandas.core.frame.DataFrame.select_dtypes(include=[object]):
 - rename column: `pandas.core.frame.DataFrame.rename(columns={'colnam': 'new_colname'}, inplace=True)`
 - convert to number: `pandas.core.frame.DataFrame["colname"] = pd.to_numeric(pandas.core.frame.DataFrame["colname"], errors='coerce')`
 - Get next row column value into new column: `pandas.core.frame.DataFrame['new_clo'] = pandas.core.frame.DataFrame['col'].shift(-1)`
+- Merge dataframes with speicific columns: `pd.merge(pandas.core.frame.DataFrame, pandas.core.frame.DataFrame[['col1', 'col2']], on='col1', how='left')
 `
