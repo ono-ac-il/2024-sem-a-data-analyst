@@ -37,3 +37,7 @@ for col in pandas.core.frame.DataFrame.select_dtypes(include=[object]):
 - `pandas.core.series.Series.fillna("something"))`
 - `pandas.core.series.Series.dropna()`
 - `pd.concat([pandas.core.frame.DataFrame, pandas.core.frame.DataFrame])`
+
+## ls04
+
+- rename column: `pandas.core.frame.DataFrame.rename(columns={'colnam': 'new_colname'}, inplace=True)`
