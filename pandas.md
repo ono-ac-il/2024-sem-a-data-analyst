@@ -6,6 +6,13 @@
 
 `pandas.core.frame.DataFrame.columns.str.replace('/', '', regex=False).str.strip()`
 
+### Remove '/' and trim spaces of data rows
+
+```python
+for col in pandas.core.frame.DataFrame.select_dtypes(include=[object]):
+    pandas.core.frame.DataFrame[col] = pandas.core.frame.DataFrame[col].astype(str).str.replace('/', '', regex=False).str.strip()
+```
+
 ## ls02
 
 - `pd.DataFrame()`
